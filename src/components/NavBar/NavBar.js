@@ -17,4 +17,4 @@ const NavBar = () => {
     )
 }
 
-export default NavBarhum
+export default NavBar
