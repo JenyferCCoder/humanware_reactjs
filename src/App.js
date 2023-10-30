@@ -8,7 +8,7 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 function App() {
   return (
     <div className="App">
-      <BroeserRouter>
+      <BrowserRouter>
         <NavBar />
         <Routes>
           <Route path='/' element={<ItemListContainer />}/>
@@ -16,7 +16,7 @@ function App() {
           <Route path="/item/:id" element={<ItemDetailContainer />}/>
           <Route path='*' element={ <h1>404 NOT FOUND</h1>} />
         </Routes>
-      </BroeserRouter>
+      </BrowserRouter>
 
 
       {/* <NavBar />
