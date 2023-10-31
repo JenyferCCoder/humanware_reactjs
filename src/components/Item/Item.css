@@ -1,0 +1,24 @@
+/* Item.css */
+
+/* Estilo del contenedor para los elementos CardItem */
+.CardContainer {
+    display: flex; /* Disposición en forma de fila */
+    flex-wrap: wrap; /* Envolver elementos si no caben en una sola fila */
+    justify-content: space-between; /* Distribución equitativa de espacio entre elementos */
+  }
+  
+  /* Estilo de los elementos CardItem */
+  .CardItem {
+    /* Estilos individuales para cada CardItem si es necesario */
+    /* Por ejemplo, puedes establecer un ancho máximo o margen entre los elementos */
+    max-width: 30%; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 10px; /* Agrega margen entre los elementos */
+    display: inline-block;
+    background-color: beige;
+  }
+  
+  /* Otros estilos según sea necesario */
+
+  .ItemImg{
+    width: 40%;
+  }
